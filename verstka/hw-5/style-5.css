@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Druk-Wide-Medium';
+    src: url(./fonts-5/Druk\ Wide\ Medium.otf);
+}
+
+@font-face {
+    font-family: 'Druk-Wide-Bold';
+    src: url(./fonts-5/Druk\ Wide\ Bold.otf);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+header{
+    background: #1F2326;
+    padding: 44px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.grey-line{
+    width: 2px;
+    height: 42px;
+    background: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    color: #FFFFFF;
+    gap: 50px;
+    margin-left: 86px;
+}
+
+nav ul li{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: #FF4656;
+    transition: .3s;
+}
+
+li.dropdown::after{
+    content: url(./img-5/arrow-nav.svg);
+    margin-left: 17px;
+    height: 7px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.user-name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.arrow-down{
+    margin-bottom: 8px;
+}
+
+.heroes{
+    background: #FF4656;
+}
+
+.picture-bg{
+    background-image: url(./img-5/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 113px 0 314px;
+}
+
+.picture-bg .container{
+    background-image: url(./img-5/bg-line.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: contain;
+    background-position: inherit;
+    padding: 40px 0;
+}
+
+.subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    font-family: 'Druk-Wide-Medium';
+    color: #FF4656;
+    transform: rotate(90deg);
+    position: absolute;
+    width: max-content;
+    top: 175px;
+    right: -205px;
+}
+
+.info-hero{
+    position: relative;
+}
+
+.hero{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-right: 144px;
+}
+
+.h2{
+    position: absolute;
+    top: 40px;
+    right: -28px;
+}
+
+.h1{
+    margin: 0 135px 0 145px;
+}
+
+.advantages{
+    box-sizing: border-box;
+    position: absolute;
+    width: 440px;
+    height: 110px;
+    background: #1F2326;
+    border: 2px solid #F8F8F8;
+    padding: 19px 42px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    position: absolute;
+    bottom: -1%;
+    left: 8%;
+}
+
+.hero.jett .subtitle{
+    top: 145px;
+    right: -175px;
+}
+
+.hero.sage .advantages{
+    background: #FFFFFF;
+    border: 2px solid #1F2326;
+}
+
+.hero.sage .subtitle{
+    top: 85px;
+    right: -115px;
+}
+
+.hero.sova .subtitle{
+    top: 95px;
+    right: -120px;
+}
+
+.about-advantages{
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.about-advantages .container{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    top: -75%;
+    left: 8%;
+}
+
+.item-adv{
+    background-image: url(./img-5/bg-adv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 31px 72px 31px 58px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 769px;
+    border-right: 3px solid #000000;
+}
+
+.info-item{
+    width: 55%;
+}
+
+.info-item h3{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    color: #C4C4C4;
+    margin: 0 0 32px;
+    font-family: 'Druk-Wide-Medium';
+}
+
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Druk-Wide-Medium';
+    margin-bottom: 32px;
+}
+
+.descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
+
