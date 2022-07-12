@@ -193,6 +193,7 @@ li.dropdown::after{
     position: absolute;
     top: -75%;
     left: 8%;
+    width: auto;
 }
 
 .item-adv{
